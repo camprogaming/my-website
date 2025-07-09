@@ -1,83 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Albana Xhelili Ironing Services</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-  <!-- ======= HEADER ======= -->
-  <header>
-    <div class="container header-container">
-      <h1 class="logo">Albana Xhelili Ironing</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
-      </nav>
+<!-- ======= HTML ======= -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+
+<section class="contact-section">
+  <div class="contact-info">
+    <h2 class="contact-title">Get in Touch</h2>
+    <p class="contact-text">
+      We’re here to help! Call us or drop by our Chalfont St Giles location.
+    </p>
+    <div class="buttons">
+      <a href="tel:07930280904" class="btn btn-primary">
+        <span class="btn-icon">📞</span>
+        07930 280904
+      </a>
+      <a
+        href="https://maps.google.com/maps?q=46+Fleetwood+Close+Chalfont+St+Giles+HP8+4DR"
+        target="_blank"
+        class="btn btn-outline"
+      >
+        <span class="btn-icon">📍</span>
+        View on Map
+      </a>
     </div>
-  </header>
-
-  <!-- ======= MAIN CONTENT ======= -->
-  <main>
-    <!-- Home Section -->
-    <section id="home" class="container section">
-      <h2>Welcome</h2>
-      <p>
-        At <strong>Albana Xhelili Ironing Services</strong>, we provide fast, professional ironing for all your garments. Quality and care you can trust.
-      </p>
-      <button id="action-button" class="btn">Learn More</button>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="container section">
-      <h2>About Us</h2>
-      <p>
-        With years of experience in garment care, Albana Xhelili offers tailored ironing solutions to keep you looking sharp. We use eco-friendly products and pay attention to every detail.
-      </p>
-      <img src="images/hero.jpg" alt="Professional ironing service" class="responsive-image" />
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container section">
-      <h2>Contact Us</h2>
-      <form id="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your full name" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="you@example.com" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required></textarea>
-
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-
-      <div class="alternative-contact">
-        Or <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=albanaxhelili33@gmail.com"
-          target="_blank" rel="noopener"
-        >
-          email us directly
-        </a> and start typing your message in Gmail.
-      </div>
-
-      <div id="form-feedback" class="feedback"></div>
-    </section>
-  </main>
-
-  <!-- ======= FOOTER ======= -->
-  <footer>
-    <div class="container footer-container">
-      <p>&copy; 2025 Albana Xhelili Ironing Services</p>
-    </div>
-  </footer>
-
-  <script src="js/script.js"></script>
-</body>
-</html>
+  </div>
+  <div class="contact-map">
+    <iframe
+      src="https://maps.google.com/maps?q=46+Fleetwood+Close+Chalfont+St+Giles+HP8+4DR&output=embed"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+</section>
