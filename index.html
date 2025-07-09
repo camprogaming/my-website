@@ -4,11 +4,27 @@
   rel="stylesheet"
 />
 
+<section class="services-section">
+  <h2 class="section-title">Our Professional Ironing Services</h2>
+  <p class="section-text">
+    At Stewart’s Ironing Co., we understand that a perfectly pressed wardrobe speaks volumes.
+    Whether you’re a busy professional, a boutique hotel, or a household looking for
+    immaculate linens, our specialists deliver:
+  </p>
+  <ul class="services-list">
+    <li>⚡ High-precision pressing for shirts, blouses & workwear</li>
+    <li>🛏️ Crisp linen & bedding finishing</li>
+    <li>👔 Suit & jacket steaming</li>
+    <li>✨ Delicate fabrics handled with care</li>
+    <li>🚚 Free local collection & delivery across Buckinghamshire</li>
+  </ul>
+</section>
+
 <section class="contact-section">
   <div class="contact-info">
     <h2 class="contact-title">Get in Touch</h2>
     <p class="contact-text">
-      We’re here to help! Call us or drop by our Chalfont St Giles location.
+      Ready for perfectly pressed garments? Call us or visit our Chalfont St Giles studio.
     </p>
     <div class="buttons">
       <a href="tel:07930280904" class="btn btn-primary">
@@ -16,8 +32,7 @@
         07930 280904
       </a>
       <a
-        href="https://maps.google.com/maps?q=46+Fleetwood+Close+Chalfont+St+Giles+HP8+4DR"
-        target="_blank"
+        href="#map"
         class="btn btn-outline"
       >
         <span class="btn-icon">📍</span>
@@ -25,11 +40,35 @@
       </a>
     </div>
   </div>
-  <div class="contact-map">
+  <div id="map" class="contact-map">
     <iframe
       src="https://maps.google.com/maps?q=46+Fleetwood+Close+Chalfont+St+Giles+HP8+4DR&output=embed"
       allowfullscreen
       loading="lazy"
     ></iframe>
   </div>
+</section>
+
+<section class="form-section">
+  <h2 class="section-title">Send Us a Message</h2>
+  <form
+    class="contact-form"
+    action="mailto:albanaxhelilistewart33@gmail.com"
+    method="POST"
+    enctype="text/plain"
+  >
+    <label>
+      Your Name
+      <input type="text" name="Name" required />
+    </label>
+    <label>
+      Your Email
+      <input type="email" name="Email" required />
+    </label>
+    <label>
+      Your Message
+      <textarea name="Message" rows="5" required></textarea>
+    </label>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
 </section>
